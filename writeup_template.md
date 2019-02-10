@@ -148,27 +148,39 @@ The model was able to correctly guess 4 of the 5 traffic signs, which gives an a
 
 The code for making predictions on my final model is starting in the 74th cell of the Ipython notebook.
 
-For the first image, the model is very sure that this is a road work sign sign (probability of 1.0), and the image does contain a road sign. The top five soft max probabilities were:
-<<br>
+<p>For the first image, the model is very sure that this is a road work sign sign (probability of 1.0), and the image does contain a road sign. The top five soft max probabilities were: </p>
+<br>
 <a href="url"><img src="./new_signs/no_entry.jpeg" align="left" height="200" ></a>
 <a href="url"><img src="./new_signs_results/no_entry.png" align="left" height="200" ></a>
 <br>
-For the second image, the model is very sure that this is a yield sign sign (probability of 1.0), and the image does contain a yield sign. The top five soft max probabilities were:
+
+
+
+<p>For the second image, the model is very sure that this is a yield sign sign (probability of 1.0), and the image does contain a yield sign. The top five soft max probabilities were:</p>
 <br>
 <a href="url"><img src="./new_signs/yield.jpg" align="left" height="200" ></a>
 <a href="url"><img src="./new_signs_results/yield.png" align="left" height="200" ></a>
 <br>
-For the third image, the model is very sure that this is a road work sign sign (probability of 1.0), and the image does contain a road sign. The top five soft max probabilities were:
+
+
+
+<p>For the third image, the model is very sure that this is a road work sign sign (probability of 1.0), and the image does contain a road sign. The top five soft max probabilities were:</p>
 <br>
 <a href="url"><img src="./new_signs/road_work.jpeg" align="left" height="200" ></a>
 <a href="url"><img src="./new_signs_results/road_work.png" align="left" height="200" ></a>
 <br>
-For the fourth image, the model is very sure that this is a road work sign sign (probability of 1.0), and the image does contain a road sign. The top five soft max probabilities were:
+
+
+
+<p>For the fourth image, the model is very sure that this is a road work sign sign (probability of 1.0), and the image does contain a road sign. The top five soft max probabilities were:</p>
 <br>
 <a href="url"><img src="./new_signs/animals_crossing.jpeg" align="left" height="200" ></a>
 <a href="url"><img src="./new_signs_results/animals_crossing.png" align="left" height="200" ></a>
 <br>
-For the fifth image, the model is very sure that this is a road work sign sign (probability of 1.0), and the image does contain a road sign. The top five soft max probabilities were:
+
+
+
+<p>For the fifth image, the model is very sure that this is a road work sign sign (probability of 1.0), and the image does contain a road sign. The top five soft max probabilities were:</p>
 <br>
 <a href="url"><img src="./new_signs/speed_limit.jpeg" align="left" height="200" ></a>
 <a href="url"><img src="./new_signs_results/speed_limit.png" align="left" height="200" ></a>
