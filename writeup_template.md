@@ -16,11 +16,16 @@ The goals / steps of this project are the following:
 
 [image1]: ./examples/training_labels_distribution.png "Distribution of labels in training data set"
 [image2]: ./examples/grayscale_example.jpg "Grayscaling"
-[image3]: ./new_signs/im1.jpeg "No entry"
-[image4]: ./new_signs/im2.jpg "Yield"
-[image5]: ./new_signs/im3.jpeg "Road work"
-[image6]: ./new_signs/im4.jpeg "Speed limit 30km/h"
-[image7]: ./new_signs/im5.jpeg "Wild animals crossing"
+[image3]: ./new_signs/no_entry.jpeg "No entry"
+[image4]: ./new_signs/yield.jpg "Yield"
+[image5]: ./new_signs/road_work.jpeg "Road work"
+[image6]: ./new_signs/speed_limit.jpeg "Speed limit 30km/h"
+[image7]: ./new_signs/animals_crossing.jpeg "Wild animals crossing"
+[image8]: ./new_signs_results/no_entry. "No entry"
+[image9]: ./new_signs_results/yield "Yield"
+[image10]: ./new_signs_results/road_work "Road work"
+[image11]: ./new_signs_results/speed_limit "Speed limit 30 km/h"
+[image12]: ./new_signs_results/animals_crossing "Wild animals crossing"
 
 
 ## Rubric Points
@@ -145,16 +150,17 @@ The code for making predictions on my final model is starting in the 74th cell o
 
 For the first image, the model is very sure that this is a road work sign sign (probability of 1.0), and the image does contain a road sign. The top five soft max probabilities were:
 <a href="url"><img src="./new_signs_results/im1.jpeg" align="left" height="200" ></a>
-
+<br>
 For the second image, the model is very sure that this is a road work sign sign (probability of 1.0), and the image does contain a road sign. The top five soft max probabilities were:
 <a href="url"><img src="./new_signs_results/im1.jpeg" align="left" height="200" ></a>
-
+<br>
 For the third image, the model is very sure that this is a road work sign sign (probability of 1.0), and the image does contain a road sign. The top five soft max probabilities were:
 <a href="url"><img src="./new_signs_results/im1.jpeg" align="left" height="200" ></a>
-
+<br>
 For the fourth image, the model is very sure that this is a road work sign sign (probability of 1.0), and the image does contain a road sign. The top five soft max probabilities were:
-<a href="url"><img src="./new_signs_results/im1.jpeg" align="left" height="200" ></a>
-
+![alt text][image7]
+![alt text][image12]
+<br>
 For the fifth image, the model is very sure that this is a road work sign sign (probability of 1.0), and the image does contain a road sign. The top five soft max probabilities were:
 <a href="url"><img src="./new_signs_results/im1.jpeg" align="left" height="200" ></a>
 
