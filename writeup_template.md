@@ -14,7 +14,7 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-[image1]: ./examples/training_labels_distribution.png {: height="36px" width="36px"} "Distribution of labels in training data set"
+[image1]: ./examples/training_labels_distribution.png "Distribution of labels in training data set"
 [image2]: ./examples/grayscale_example.jpg "Grayscaling"
 [image3]: ./new_signs/im1.jpeg "No entry"
 [image4]: ./new_signs/im2.jpg "Yield"
