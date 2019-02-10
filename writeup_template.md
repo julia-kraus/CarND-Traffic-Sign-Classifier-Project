@@ -155,21 +155,22 @@ The code for making predictions on my final model is starting in the 74th cell o
 <div>
 
 
+##### Road Work
 
-
-</div>For the third image, the model is very sure that this is a road work sign sign (probability of 1.0), and the image does contain a road sign. The top five soft max probabilities were:</div>
-<div>
 <a href="url"><img src="./new_signs/road_work.jpeg" align="left" height="200" ></a>
 <a href="url"><img src="./new_signs_results/road_work.png" align="left" height="200" ></a>
-</div>
+</div>For the third image, the model is very sure that this is a road work sign sign (probability of 1.0), and the image does contain a road sign.</div>
+<div>
 
 
+##### Animals Crossing
 
-<p>For the fourth image, the model is very sure that this is a road work sign sign (probability of 1.0), and the image does contain a road sign. The top five soft max probabilities were:</p>
-<br>
+
 <a href="url"><img src="./new_signs/animals_crossing.jpeg" align="left" height="200" display="block"></a>
 <a href="url"><img src="./new_signs_results/animals_crossing.png" align="left" height="200" ></a>
 <br>
+<div>For the fourth image, the model is very sure that this is a road work sign sign (probability of 1.0). The correct answer was not among the top 5 logits.</div>
+
 
 
 
@@ -178,7 +179,7 @@ The code for making predictions on my final model is starting in the 74th cell o
 <a href="url"><img src="./new_signs_results/speed_limit.png" align="left" height="200" ></a>
 
 
-<p>For the fifth image, the model is very sure that this is a road work sign sign (probability of 1.0), and the image does contain a road sign. The top five soft max probabilities were:</p>
+<p>For the fifth image, the model is very sure that this is a road work sign sign (probability of 1.0), and the image does contain a road sign.</p>
 <br>
 
 
