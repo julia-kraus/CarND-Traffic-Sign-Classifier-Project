@@ -1,10 +1,5 @@
 # **Traffic Sign Recognition** 
 
-## Writeup
-
-### You can use this file as a template for your writeup if you want to submit it as a markdown file, but feel free to use some other method and submit a pdf if you prefer.
-
----
 
 **Build a Traffic Sign Recognition Project**
 
@@ -31,11 +26,11 @@ The goals / steps of this project are the following:
 
 #### 1. Provide a Writeup / README that includes all the rubric points and how you addressed each one. You can submit your writeup as markdown or pdf. You can use this template as a guide for writing the report. The submission includes the project code.
 
-You're reading it! and here is a link to my [project code](https://github.com/julia-kraus/CarND-Traffic-Sign-Classifier-Project/blob/master/Traffic_Sign_Classifier.ipynb)
+Here is a link to my [project code](https://github.com/julia-kraus/CarND-Traffic-Sign-Classifier-Project/blob/master/Traffic_Sign_Classifier.ipynb)
 
 ### Data Set Summary & Exploration
 
-#### 1. Provide a basic summary of the data set. In the code, the analysis should be done using python, numpy and/or pandas methods rather than hardcoding results manually.
+### 1. Desccriptive Statistics
 
 I used the numpy library to calculate summary statistics of the traffic
 signs data set:
@@ -46,23 +41,22 @@ signs data set:
 * The shape of a traffic sign image is (32, 32, 3)
 * The number of unique classes/labels in the data set is 43
 
-#### 2. Include an exploratory visualization of the dataset.
+#### 2. Exploratory Visualization
 
-Here is an exploratory visualization of the data set. It is a bar chart showing how the data ...
+Here is an exploratory visualization of the data set. It is a bar chart showing how the data is distributed 
 
 ![alt text][image1]
 
 ### Design and Test a Model Architecture
 
 
-As a first step, I decided to convert the images to grayscale because a) training runs faster if pictures are in grayscale and b) the LeNet archigecture requires an image with 32x32 pixels in grayscale.
+As a first step, I decided to convert the images to grayscale because a) training runs faster if pictures are in grayscale and b) the LeNet architecture requires an image with 32x32 pixels in grayscale.
 
 Here is an example of a traffic sign image before and after grayscaling.
 
 ![alt text][image2]
 
-As a last step, I normalized the image data because normalization 
-
+As a last step, I normalized the image data because normalization. Normalization brings all features to a similar range, which helps the algorithm converge faster. 
 
 
 #### 2. Describe what your final model architecture looks like including model type, layers, layer sizes, connectivity, etc.) Consider including a diagram and/or table describing the final model.
@@ -71,11 +65,11 @@ My final model consisted of the following layers:
 
 | Layer         		|     Description	        					| 
 |:---------------------:|:---------------------------------------------:| 
-| Input         		| 32x32x3 RGB image   							| 
-| Convolution 3x3     	| 1x1 stride, same padding, outputs 32x32x64 	|
+| Input         		      | 32x32x3 RGB image   							| 
+| Convolution 3x3      	| 1x1 stride, same padding, outputs 32x32x64 	|
 | RELU					|												|
-| Max pooling	      	| 2x2 stride,  outputs 16x16x64 				|
-| Convolution 3x3	    | etc.      									|
+| Max pooling	      	   | 2x2 stride,  outputs 16x16x64 				|
+| Convolution 3x3	      | etc.      									|
 | Fully connected		| etc.        									|
 | Softmax				| etc.        									|
 |						|												|
@@ -85,26 +79,26 @@ My final model consisted of the following layers:
 
 #### 3. Describe how you trained your model. The discussion can include the type of optimizer, the batch size, number of epochs and any hyperparameters such as learning rate.
 
-To train the model, I used an ....
+To train the model, I used an Adam Optimizer with batch gradient descent. The batch size was 128, and I trained the model for 20 epochs. To avoid overfitting, I applied two dropout layers with keep_prob = 0.5. The learning rate was 0.0009.
 
 #### 4. Describe the approach taken for finding a solution and getting the validation set accuracy to be at least 0.93. Include in the discussion the results on the training, validation and test sets and where in the code these were calculated. Your approach may have been an iterative process, in which case, outline the steps you took to get to the final solution and why you chose those steps. Perhaps your solution involved an already well known implementation or architecture. In this case, discuss why you think the architecture is suitable for the current problem.
 
 My final model results were:
-* training set accuracy of ?
-* validation set accuracy of ? 
-* test set accuracy of ?
+* training set accuracy of 99.8%
+* validation set accuracy of 94.6%
+* test set accuracy of 93.8%
+
 
 If an iterative approach was chosen:
+* I started out with the LeNet architecture as it was demonstrated in the CNN chapter
+* The results were not very good. I expected underfitting, so I trained for 20 epochs instead of 12
+* To improve the results, I added an extra convolutional layer. 
+* To further improve the results, I chose a deeper filter depth in the convolutional layers. 
+* The model was already over 90 percent, but there was some overfitting, so I applied dropout after the dense layers. 
 * What was the first architecture that was tried and why was it chosen?
 * What were some problems with the initial architecture?
-* How was the architecture adjusted and why was it adjusted? Typical adjustments could include choosing a different model architecture, adding or taking away layers (pooling, dropout, convolution, etc), using an activation function or changing the activation function. One common justification for adjusting an architecture would be due to overfitting or underfitting. A high accuracy on the training set but low accuracy on the validation set indicates over fitting; a low accuracy on both sets indicates under fitting.
-* Which parameters were tuned? How were they adjusted and why?
-* What are some of the important design choices and why were they chosen? For example, why might a convolution layer work well with this problem? How might a dropout layer help with creating a successful model?
 
-If a well known architecture was chosen:
-* What architecture was chosen?
-* Why did you believe it would be relevant to the traffic sign application?
-* How does the final model's accuracy on the training, validation and test set provide evidence that the model is working well?
+The good test score is a good indicator that the model indeed generalizes well to new images.
  
 
 ### Test a Model on New Images
