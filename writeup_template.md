@@ -77,7 +77,7 @@ My final model consisted of the following layers:
 | Convolution 5x5	      | 1x1 stride, valid padding, outputs 10x10x200  |
 | Activation            | ReLU                                          |
 | Max pooling           | 2x2 stride, outputs 5x5x200                   |
-| Convolution 1x1       | 
+| Convolution 1x1       | 1x1 stride, valid padding outputs 5x5x300     |
 | Fully connected		     | 150 neurons                          									|
 | Fully connected.      | 84 neurons                                    |
 | Softmax				           | 43 classes        									                   |
@@ -128,13 +128,13 @@ Some of the images might be hard to classify because the shot has not been taken
 
 Here are the results of the prediction:
 
-| Image			                |     Prediction	        					| 
+| Image			                |     Prediction	        					                  | 
 |:-----------------------:|:---------------------------------------------:| 
-| No entry      		        | No entry   									        | 
-| Yield     			           | U-turn 										|
-| Road work					          | Road work											|
-| 30 km/h	      		        | Bumpy Road					 				|
-| Wild animals crossing			| Slippery Road      							|
+| No entry      		        | No entry   									                          | 
+| Yield     			           | U-turn 										                             |
+| Road work					          | Road work											                          |
+| 30 km/h	      		        | 30 km/h					 				                             |
+| Wild animals crossing			| No passing for vehicles over 3.5 metric tons  |
 
 
 The model was able to correctly guess 4 of the 5 traffic signs, which gives an accuracy of 80%. This performance is a bit worse than on the test set. 
@@ -154,7 +154,9 @@ For the first image, the model is relatively sure that this is a stop sign (prob
 | .01				    | Slippery Road      							|
 
 
-For the second image ... 
+The second
+
+
 
 
 
