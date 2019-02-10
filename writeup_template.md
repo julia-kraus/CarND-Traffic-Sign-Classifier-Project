@@ -21,11 +21,11 @@ The goals / steps of this project are the following:
 [image5]: ./new_signs/road_work.jpeg "Road work"
 [image6]: ./new_signs/speed_limit.jpeg "Speed limit 30km/h"
 [image7]: ./new_signs/animals_crossing.jpeg "Wild animals crossing"
-[image8]: ./new_signs_results/no_entry. "No entry"
-[image9]: ./new_signs_results/yield "Yield"
-[image10]: ./new_signs_results/road_work "Road work"
-[image11]: ./new_signs_results/speed_limit "Speed limit 30 km/h"
-[image12]: ./new_signs_results/animals_crossing "Wild animals crossing"
+[image8]: ./new_signs_results/no_entry.png "No entry"
+[image9]: ./new_signs_results/yield.png "Yield"
+[image10]: ./new_signs_results/road_work.png "Road work"
+[image11]: ./new_signs_results/speed_limit.png "Speed limit 30 km/h"
+[image12]: ./new_signs_results/animals_crossing.png "Wild animals crossing"
 
 
 ## Rubric Points
@@ -120,7 +120,7 @@ The good test score is a good indicator that the model indeed generalizes well t
 
 Here are five German traffic signs that I found on the web:
 
-<a href="url"><img src="./new_signs/im1.jpeg" align="left" height="100" ></a>
+<a href="url"><img src="./new_signs/no_entry.jpeg" align="left" height="100" ></a>
 <a href="url"><img src="./new_signs/im2.jpg" align="left" height="100" ></a>
 <a href="url"><img src="./new_signs/im3.jpeg" align="left" height="100" ></a>
 <a href="url"><img src="./new_signs/im4.jpeg" align="left" height="100" ></a>
@@ -147,20 +147,21 @@ The model was able to correctly guess 4 of the 5 traffic signs, which gives an a
 #### 3. Describe how certain the model is when predicting on each of the five new images by looking at the softmax probabilities for each prediction. Provide the top 5 softmax probabilities for each image along with the sign type of each probability. (OPTIONAL: as described in the "Stand Out Suggestions" part of the rubric, visualizations can also be provided such as bar charts)
 
 The code for making predictions on my final model is starting in the 74th cell of the Ipython notebook.
-
-<p>For the first image, the model is very sure that this is a road work sign sign (probability of 1.0), and the image does contain a road sign. The top five soft max probabilities were: </p>
+##### No entry
+<div>For the first image, the model is very sure that this is a road work sign sign (probability of 1.0), and the image does contain a road sign. The top five soft max probabilities were: 
 <br>
 <a href="url"><img src="./new_signs/no_entry.jpeg" align="left" height="200" ></a>
 <a href="url"><img src="./new_signs_results/no_entry.png" align="left" height="200" ></a>
-<br>
+</div>
 
 
-
-<p>For the second image, the model is very sure that this is a yield sign sign (probability of 1.0), and the image does contain a yield sign. The top five soft max probabilities were:</p>
+##### Yield
+<div>For the second image, the model is very sure that this is a yield sign sign (probability of 1.0), and the image does contain a yield sign. The top five soft max probabilities were:
 <br>
 <a href="url"><img src="./new_signs/yield.jpg" align="left" height="200" ></a>
 <a href="url"><img src="./new_signs_results/yield.png" align="left" height="200" ></a>
-<br>
+<br/>
+ </div>
 
 
 
@@ -174,7 +175,7 @@ The code for making predictions on my final model is starting in the 74th cell o
 
 <p>For the fourth image, the model is very sure that this is a road work sign sign (probability of 1.0), and the image does contain a road sign. The top five soft max probabilities were:</p>
 <br>
-<a href="url"><img src="./new_signs/animals_crossing.jpeg" align="left" height="200" ></a>
+<a href="url"><img src="./new_signs/animals_crossing.jpeg" align="left" height="200" display="block"></a>
 <a href="url"><img src="./new_signs_results/animals_crossing.png" align="left" height="200" ></a>
 <br>
 
