@@ -15,7 +15,13 @@ The goals / steps of this project are the following:
 [//]: # (Image References)
 
 [image1]: ./examples/training_labels_distribution.png "Distribution of labels in training data set"
-[image2]: ./examples/grayscale.jpg "Grayscaling"
+[image2]: ./examples/grayscale_example.jpg "Grayscaling"
+[image3]: ./new_signs/im1.jpeg
+[image4]: ./new_signs/im2.jpeg
+[image5]: ./new_signs/im3.jpeg
+[image6]: ./new_signs/im4.jpeg
+[image7]: ./new_signs/im5.jpeg
+[image8]: ./new_signs/im6.jpeg
 
 
 ## Rubric Points
