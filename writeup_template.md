@@ -115,10 +115,13 @@ The good test score is a good indicator that the model indeed generalizes well t
 
 Here are five German traffic signs that I found on the web:
 
-![alt text][image3] ![alt text][image4] ![alt text][image5] 
-![alt text][image6] ![alt text][image7]
+<a href="url"><img src="./new_signs/im1.jpeg" align="left" height="100" ></a>
+<a href="url"><img src="./new_signs/im2.jpg" align="left" height="100" ></a>
+<a href="url"><img src="./new_signs/im3.jpeg" align="left" height="100" ></a>
+<a href="url"><img src="./new_signs/im4.jpeg" align="left" height="100" ></a>
+<a href="url"><img src="./new_signs/im5.jpeg" align="left" height="100" ></a>
 
-The first image might be difficult to classify because ...
+Some of the images might be hard to classify because the shot has not been taken completely frontally. Apart from that,, the images have good resolution and lighting conditions.
 
 #### 2. Discuss the model's predictions on these new traffic signs and compare the results to predicting on the test set. At a minimum, discuss what the predictions were, the accuracy on these new predictions, and compare the accuracy to the accuracy on the test set (OPTIONAL: Discuss the results in more detail as described in the "Stand Out Suggestions" part of the rubric).
 
