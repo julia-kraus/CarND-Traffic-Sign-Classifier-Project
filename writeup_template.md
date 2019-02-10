@@ -16,12 +16,11 @@ The goals / steps of this project are the following:
 
 [image1]: ./examples/training_labels_distribution.png "Distribution of labels in training data set"
 [image2]: ./examples/grayscale_example.jpg "Grayscaling"
-[image3]: ./new_signs/im1.jpeg
-[image4]: ./new_signs/im2.jpeg
-[image5]: ./new_signs/im3.jpeg
-[image6]: ./new_signs/im4.jpeg
-[image7]: ./new_signs/im5.jpeg
-[image8]: ./new_signs/im6.jpeg
+[image3]: ./new_signs/im1.jpeg "No entry"
+[image4]: ./new_signs/im2.jpeg "Yield"
+[image5]: ./new_signs/im3.jpeg "Road work"
+[image6]: ./new_signs/im4.jpeg "Speed limit 30km/h"
+[image7]: ./new_signs/im5.jpeg "Wild animals crossing"
 
 
 ## Rubric Points
@@ -116,8 +115,8 @@ The good test score is a good indicator that the model indeed generalizes well t
 
 Here are five German traffic signs that I found on the web:
 
-![alt text][image4] ![alt text][image5] ![alt text][image6] 
-![alt text][image7] ![alt text][image8]
+![alt text][image3] ![alt text][image4] ![alt text][image5] 
+![alt text][image6] ![alt text][image7]
 
 The first image might be difficult to classify because ...
 
