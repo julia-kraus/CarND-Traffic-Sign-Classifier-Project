@@ -121,7 +121,8 @@ Here are five German traffic signs that I found on the web:
 <a href="url"><img src="./new_signs/im4.jpeg" align="left" height="100" ></a>
 <a href="url"><img src="./new_signs/im5.jpeg" align="left" height="100" ></a>
 
-Some of the images might be hard to classify because the shot has not been taken completely frontally. Apart from that,, the images have good resolution and lighting conditions.
+<br>
+Some of the images might be hard to classify because the shot has not been taken completely frontally. Apart from that, the images have good resolution and lighting conditions.
 
 #### 2. Discuss the model's predictions on these new traffic signs and compare the results to predicting on the test set. At a minimum, discuss what the predictions were, the accuracy on these new predictions, and compare the accuracy to the accuracy on the test set (OPTIONAL: Discuss the results in more detail as described in the "Stand Out Suggestions" part of the rubric).
 
