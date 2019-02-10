@@ -142,7 +142,7 @@ The code for making predictions on my final model is starting in the 74th cell o
 <a href="url"><img src="./new_signs/no_entry.jpeg" align="left" height="200" ></a>
 <a href="url"><img src="./new_signs_results/no_entry.png" align="left" height="200" ></a>
 
-<div>For the first image, the model is very sure that this is a road work sign sign (probability of 1.0), and the image does contain a road sign. The top five soft max probabilities were:</div>
+<div>For the first image, the model is very sure that this is a road work sign sign (probability of 1.0), and the image does contain a no entry sign.</div>
 <div>
 
 
@@ -151,7 +151,7 @@ The code for making predictions on my final model is starting in the 74th cell o
 <a href="url"><img src="./new_signs/yield.jpg" align="left" height="200" ></a>
 <a href="url"><img src="./new_signs_results/yield.png" align="left" height="200" ></a>
 <br>
-<div style="margin-left: 132px">For the second image, the model is very sure that this is a yield sign sign (probability of 1.0), and the image does contain a yield sign. The top five soft max probabilities were:</div>
+<div style="margin-left: 132px">For the second image, the model is very sure that this is a yield sign (probability of 1.0), and the image does contain a yield sign.</div>
 <div>
 
 
@@ -159,7 +159,7 @@ The code for making predictions on my final model is starting in the 74th cell o
 
 <a href="url"><img src="./new_signs/road_work.jpeg" align="left" height="200" ></a>
 <a href="url"><img src="./new_signs_results/road_work.png" align="left" height="200" ></a>
-</div>For the third image, the model is very sure that this is a road work sign sign (probability of 1.0), and the image does contain a road sign.</div>
+</div>For the third image, the model is very sure that this is a road work sign (probability of 1.0), and the image does contain a road work sign.</div>
 <div>
 
 
@@ -169,7 +169,7 @@ The code for making predictions on my final model is starting in the 74th cell o
 <a href="url"><img src="./new_signs/animals_crossing.jpeg" align="left" height="200" display="block"></a>
 <a href="url"><img src="./new_signs_results/animals_crossing.png" align="left" height="200" ></a>
 <br>
-<div>For the fourth image, the model is very sure that this is a road work sign sign (probability of 1.0). The correct answer was not among the top 5 logits.</div>
+<div>For the fourth image, the model is very sure that this is a road work sign (probability of almost 1.0), which is wrong. The correct answer was not among the top 5 logits.</div>
 
 
 
@@ -179,7 +179,7 @@ The code for making predictions on my final model is starting in the 74th cell o
 <a href="url"><img src="./new_signs_results/speed_limit.png" align="left" height="200" ></a>
 
 
-<p>For the fifth image, the model is very sure that this is a road work sign sign (probability of 1.0), and the image does contain a road sign.</p>
+<p>For the fifth image, the model is very sure that this is a road work sign (probability of 1.0), and the image does contain a road sign.</p>
 <br>
 
 
